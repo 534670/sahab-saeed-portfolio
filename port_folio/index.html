@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sahab Saeed | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-logo">Sahab Saeed<span>.</span></div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <section id="home">
+    <div class="hero-img-wrap">
+      <img src="dev.png" alt="Sahab Saeed" />
+    </div>
+    <div class="hero-text">
+      <span class="hero-badge"></span>
+      <h1>Sahab Saeed</h1>
+      <p class="role-line">I'm a <span id="typewriter"></span><span class="cursor"></span></p>
+      <p>A passionate Software Engineering student and Front-End Developer, currently gaining hands-on industry experience as an intern at <strong>DevelopersHub Corporation</strong>. I love crafting clean, responsive, and user-friendly web interfaces.</p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn">Hire Me</a>
+        <a href="Resume(1).pdf" class="btn btn-outline" download="Resume(1).pdf">Download Cv</a>
+          
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2 class="section-title">About <span>Me</span></h2>
+    <p class="section-sub">Get to know me better</p>
+    <div class="section-underline"></div>
+    <div class="about-grid fade-up">
+      <div class="about-img-wrap">
+        <img src="dev.png" alt="Sahab Saeed" />
+      </div>
+      <div class="about-info">
+        <h3>Front-End Developer & SE Student</h3>
+        <p>I'm a Software Engineering student with a strong passion for front-end development. I enjoy turning ideas into reality through clean code and creative design. Currently interning at <strong>DevelopersHub Corporation</strong> where I'm sharpening my real-world development skills every single day.</p>
+        <div class="about-details">
+          <div class="about-detail"><strong>Name:</strong> Sahab Saeed</div>
+          <div class="about-detail"><strong>Field:</strong> Software Engineering</div>
+          <div class="about-detail"><strong>Role:</strong> Front-End Developer</div>
+          <div class="about-detail"><strong>Company:</strong> DevelopersHub Corp</div>
+          <div class="about-detail"><strong>Status:</strong> Intern</div>
+          </div>
+        <a href="#contact" class="btn">Get In Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2 class="section-title">My <span>Skills</span></h2>
+    <p class="section-sub">Technologies I work with</p>
+    <div class="section-underline"></div>
+    <div class="skills-grid">
+
+      <div class="skill-card fade-up">
+        <i class="fab fa-html5"></i>
+        <h4>HTML5</h4>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-pct="90"></div></div>
+        <p class="skill-pct">90%</p>
+      </div>
+
+      <div class="skill-card fade-up">
+        <i class="fab fa-css3-alt"></i>
+        <h4>CSS3</h4>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-pct="85"></div></div>
+        <p class="skill-pct">85%</p>
+      </div>
+
+      <div class="skill-card fade-up">
+        <i class="fab fa-js"></i>
+        <h4>JavaScript</h4>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-pct="78"></div></div>
+        <p class="skill-pct">78%</p>
+      </div>
+
+      <div class="skill-card fade-up">
+        <i class="fas fa-mobile-alt"></i>
+        <h4>Responsive Design</h4>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-pct="88"></div></div>
+        <p class="skill-pct">88%</p>
+      </div>
+
+      <div class="skill-card fade-up">
+        <i class="fas fa-paint-brush"></i>
+        <h4>UI/UX Design</h4>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-pct="80"></div></div>
+        <p class="skill-pct">80%</p>
+      </div>
+
+      <div class="skill-card fade-up">
+        <i class="fas fa-code"></i>
+        <h4>Problem Solving</h4>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-pct="85"></div></div>
+        <p class="skill-pct">85%</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="services">
+    <h2 class="section-title">My <span>Services</span></h2>
+    <p class="section-sub">What I can do for you</p>
+    <div class="section-underline"></div>
+    <div class="services-grid">
+
+      <div class="service-card fade-up">
+        <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+        <h3>Web Development</h3>
+        <p>Building modern, fast, and fully responsive websites using HTML, CSS, and JavaScript.</p>
+      </div>
+
+      <div class="service-card fade-up">
+        <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
+        <h3>UI/UX Design</h3>
+        <p>Designing clean, intuitive interfaces that deliver great user experiences across all screen sizes.</p>
+      </div>
+
+      <div class="service-card fade-up">
+        <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+        <h3>Responsive Layouts</h3>
+        <p>Crafting pixel-perfect layouts that adapt seamlessly to desktops, tablets, and mobile devices.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Contact <span>Me</span></h2>
+    <p class="section-sub">Let's work together</p>
+    <div class="section-underline"></div>
+    <div class="contact-wrapper fade-up">
+      <div class="contact-form">
+        <input type="text" id="cName" placeholder="Your Name" />
+        <input type="email" id="cEmail" placeholder="Your Email" />
+        <input type="text" id="cSubject" placeholder="Subject" />
+        <textarea id="cMsg" placeholder="Your Message"></textarea>
+        <button class="btn" onclick="submitForm()">Send Message &#9658;</button>
+        <p class="form-success" id="formSuccess"> Message sent! I'll get back to you soon.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 <span>Sahab Saeed</span> &mdash; All Rights Reserved. Built with HTML, CSS & JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
